@@ -1,0 +1,92 @@
+  
+.video-item {
+    display: grid !important;
+    grid-column-gap: 50px;
+    align-items: center ;
+    cursor: pointer;
+}
+
+.video-item.item img {
+    max-width: 200px;
+    max-height: 250px ;
+}
+.c-player--details {
+    position: absolute;
+width: 632px;
+height: 288px;
+left: 337px;
+top: 480px;
+border: 1px solid #000000;
+color: aliceblue;
+background-color: black;
+box-sizing: border-box;
+text-align: center;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.MuiGrid-item {
+    background-color: transparent;
+    
+}
+.MuiPaper-elevation1 {
+    background-color: black   !important;
+
+      width: 50%!important;
+    
+}
+
+.video-item {
+    position: relative;
+width: 337px;
+height: 500px;
+left: 0px;
+top: 30%;
+cursor: pointer!important;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.list {
+        width: 340px !important;
+    margin-top: 350px !important;
+    cursor: pointer!important;
+    margin-left: 2%!important;
+    background-color: black!important;
+}
+.search-bar {
+    position: absolute;
+width: 337px;
+height: 350px;
+left: -3px;
+top: -3px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+iframe {
+    position: absolute;
+    display: block;
+position: absolute;
+width: 632px;
+height: 480px;
+left: 337px;
+top: 0px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.video-search {
+    color: white !important;
+    position: relative;
+    display: block;
+    left: 10%;
+    margin-top: 40%!important;
+    width: 80%;
+    
+}
